@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Prana Yoga</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="header-inner">
+        <button class="menu-button" aria-label="Open menu" onclick="openMenu()">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </header>
+
+    <aside class="side-menu" id="sideMenu">
+      <button class="menu-close" aria-label="Close menu" onclick="closeMenu()">×</button>
+      <h3>Prana Yoga</h3>
+      <a href="index.html">Home</a>
+      <a href="about.html">About Me</a>
+      <a href="services-yoga-classes.html">Yoga Classes</a>
+      <a href="services-individual-retreats.html">Retreats for Individuals</a>
+      <a href="services-corporate-retreats.html">Corporate Retreats</a>
+      <a href="services-chair-yoga.html">Chair Yoga</a>
+      <a href="services-workshops.html">Yoga Nidra Workshops</a>
+      <a href="gallery.html">Gallery</a>
+      <a href="reviews.html">Reviews</a>
+      <a href="contact.html">Contact</a>
+    </aside>
+    <div class="overlay" id="overlay" onclick="closeMenu()"></div>
+
+    <main class="container">
+      <h1 class="hero-title">Prana Yoga</h1>
+
+      <section class="gallery-strip">
+        <img src="https://images.unsplash.com/photo-1506126613408-eca07ce68773?auto=format&fit=crop&w=900&q=80" alt="Yoga pose outdoors" />
+        <img src="https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?auto=format&fit=crop&w=900&q=80" alt="Group yoga class" />
+        <img src="https://images.unsplash.com/photo-1593810450967-f9c42742e326?auto=format&fit=crop&w=900&q=80" alt="Meditation yoga pose" />
+        <img src="https://images.unsplash.com/photo-1518611012118-696072aa579a?auto=format&fit=crop&w=900&q=80" alt="Yoga studio flow" />
+      </section>
+
+      <section class="section-list">
+        <article class="section-card">
+          <h2>About Me</h2>
+          <p>Learn about my yoga journey and teaching style.</p>
+          <a class="section-link" href="about.html">Open About Me</a>
+        </article>
+
+        <article class="section-card">
+          <h2>Services</h2>
+          <p>Explore classes, retreats, and specialist sessions.</p>
+          <a class="section-link" href="#" onclick="toggleSubLinks('servicesLinks'); return false;">Choose Service</a>
+          <div class="sub-links" id="servicesLinks">
+            <a href="services-yoga-classes.html">Yoga Classes</a>
+            <a href="services-individual-retreats.html">Wellness Retreats for Individuals</a>
+            <a href="services-corporate-retreats.html">Wellness Retreats for Staff/Corporate Days</a>
+            <a href="services-chair-yoga.html">Chair Yoga for Care Homes</a>
+            <a href="services-workshops.html">Yoga Nidra, Meditation and Sound Bath Workshops</a>
+          </div>
+        </article>
+
+        <article class="section-card">
+          <h2>Gallery</h2>
+          <p>A glimpse into sessions, retreats, and community moments.</p>
+          <a class="section-link" href="gallery.html">Open Gallery</a>
+        </article>
+
+        <article class="section-card">
+          <h2>Reviews</h2>
+          <p>Kind words from our yoga community.</p>
+          <a class="section-link" href="reviews.html">Open Reviews</a>
+        </article>
+
+        <article class="section-card">
+          <h2>Contact Us</h2>
+          <p>Get in touch to start your wellness journey.</p>
+          <a class="section-link" href="contact.html">Open Contact</a>
+        </article>
+      </section>
+    </main>
+
+    <footer class="footer-contact">
+      <div class="footer-inner">
+        <strong>Contact</strong><br />
+        Email: <a href="mailto:info@prana-yoga.uk">info@prana-yoga.uk</a><br />
+        Mobile: <a href="tel:+447492366161">07492 366161</a>
+      </div>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
