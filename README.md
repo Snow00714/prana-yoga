@@ -73,7 +73,15 @@ Perfect for anyone seeking stress relief, deeper rest, emotional balance, and a 
 More details coming soon — a beautiful space to pause, breathe, and simply be. ✨
 
 ## Gallery 
+A glimpse into our yoga journey, retreats, workshops, and community moments. From peaceful practices to uplifting wellness experiences, every session is created with connection, balance, and positive energy at its heart. ✨
 
 ## Reviews 
+Kind words from our wonderful community. Hearing how yoga has helped others feel stronger, calmer, more confident, and more connected is truly special.
 
 ## Contact us
+I’d love to hear from you! Whether you’re interested in yoga classes, retreats, corporate wellness sessions, or simply want to learn more, please feel free to get in touch.
+
+Let’s begin your wellness journey together. ✨
+
+Email: info@prana-yoga.uk
+Mob: 07492366161
