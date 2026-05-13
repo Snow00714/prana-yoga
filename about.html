@@ -7,30 +7,58 @@
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <header class="site-header">
-      <div class="header-inner">
-        <button class="menu-button" aria-label="Open menu" onclick="openMenu()"><span></span><span></span><span></span></button>
+    <nav class="site-nav" aria-label="Main">
+      <div class="site-nav__inner">
+        <a class="site-nav__brand" href="index.html">Prana Yoga</a>
+        <span class="site-nav__sep" aria-hidden="true">·</span>
+        <a class="site-nav__link" href="index.html#top">Home</a>
+        <a class="site-nav__link" href="about.html">About</a>
+        <a class="site-nav__link" href="index.html#services">Services</a>
+        <a class="site-nav__link" href="gallery.html">Gallery</a>
+        <a class="site-nav__link" href="reviews.html">Reviews</a>
+        <a class="site-nav__link" href="contact.html">Contact</a>
       </div>
-    </header>
-    <aside class="side-menu" id="sideMenu">
-      <button class="menu-close" aria-label="Close menu" onclick="closeMenu()">×</button>
-      <h3>Prana Yoga</h3>
-      <a href="index.html">Home</a><a href="about.html">About Me</a><a href="services-yoga-classes.html">Yoga Classes</a>
-      <a href="services-individual-retreats.html">Retreats for Individuals</a><a href="services-corporate-retreats.html">Corporate Retreats</a>
-      <a href="services-chair-yoga.html">Chair Yoga</a><a href="services-workshops.html">Yoga Nidra Workshops</a>
-      <a href="gallery.html">Gallery</a><a href="reviews.html">Reviews</a><a href="contact.html">Contact</a>
-    </aside>
-    <div class="overlay" id="overlay" onclick="closeMenu()"></div>
+    </nav>
 
-    <main class="container content-page">
-      <h1>About Me</h1>
-      <p>Hi, I’m a certified yoga instructor trained in the sacred city of Rishikesh, known around the world as the Yoga Capital of the World.</p>
-      <p>My teaching combines mindful movement, breath, balance, and a welcoming atmosphere so every student feels supported, from beginners to experienced yogis.</p>
-      <p>Yoga is more than exercise. It is a journey back to yourself.</p>
-      <img class="content-photo" src="https://images.unsplash.com/photo-1485727749690-d091e8284ef3?auto=format&fit=crop&w=1200&q=80" alt="Yoga instructor in calm studio" />
+    <main>
+      <section
+        class="scroll-section"
+        style="--section-bg: url('https://images.unsplash.com/photo-1485727749690-d091e8284ef3?auto=format&fit=crop&w=1600&q=80')"
+      >
+        <div class="scroll-section__bg" aria-hidden="true"></div>
+        <div class="scroll-section__wash" aria-hidden="true"></div>
+        <div class="scroll-section__scrim" aria-hidden="true"></div>
+        <div class="scroll-section__inner">
+          <div class="content-panel">
+            <h1>About me</h1>
+            <p class="section-lead">
+              Hi, I’m a certified yoga instructor trained in the sacred city of Rishikesh — known around the world as the Yoga Capital of the World.
+            </p>
+            <p>
+              My journey into yoga began with a deep passion for movement, mindfulness, and connection. Training in India allowed me to immerse myself in the authentic roots of yoga, learning ancient practices that nurture both body and mind.
+            </p>
+            <p>
+              Today, I’m proud to bring that traditional wisdom, calming energy, and uplifting spirit directly into our local community. My classes are designed to help you feel stronger, more balanced, and more connected — whether you’re stepping onto the mat for the very first time or deepening an existing practice.
+            </p>
+            <p>
+              Expect a welcoming space filled with positive energy, mindful movement, and moments of calm, joy, and self-discovery. Yoga is more than exercise — it’s a journey back to yourself.
+            </p>
+            <img
+              class="content-photo"
+              src="https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?auto=format&fit=crop&w=1200&q=80"
+              alt="Calm yoga practice in a bright space"
+            />
+          </div>
+        </div>
+      </section>
     </main>
 
-    <footer class="footer-contact"><div class="footer-inner"><strong>Contact</strong><br />Email: <a href="mailto:info@prana-yoga.uk">info@prana-yoga.uk</a><br />Mobile: <a href="tel:+447492366161">07492 366161</a></div></footer>
-    <script src="script.js"></script>
+    <footer class="footer-contact">
+      <div class="footer-inner">
+        <strong>Contact</strong><br />
+        Email: <a href="mailto:info@prana-yoga.uk">info@prana-yoga.uk</a><br />
+        Mobile: <a href="tel:+447492366161">07492 366161</a>
+      </div>
+    </footer>
   </body>
 </html>

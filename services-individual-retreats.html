@@ -7,19 +7,55 @@
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <header class="site-header"><div class="header-inner"><button class="menu-button" aria-label="Open menu" onclick="openMenu()"><span></span><span></span><span></span></button></div></header>
-    <aside class="side-menu" id="sideMenu">
-      <button class="menu-close" aria-label="Close menu" onclick="closeMenu()">×</button><h3>Prana Yoga</h3>
-      <a href="index.html">Home</a><a href="about.html">About Me</a><a href="services-yoga-classes.html">Yoga Classes</a><a href="services-individual-retreats.html">Retreats for Individuals</a><a href="services-corporate-retreats.html">Corporate Retreats</a><a href="services-chair-yoga.html">Chair Yoga</a><a href="services-workshops.html">Yoga Nidra Workshops</a><a href="gallery.html">Gallery</a><a href="reviews.html">Reviews</a><a href="contact.html">Contact</a>
-    </aside>
-    <div class="overlay" id="overlay" onclick="closeMenu()"></div>
-    <main class="container content-page">
-      <h1>Wellness Yoga Retreats for Individuals</h1>
-      <p>This immersive retreat morning is designed for calm, connection, and renewal. You begin with herbal tea, then gentle asana and deeper Hatha Yoga, alignment, pranayama, and guided rest practices.</p>
-      <p>The day also includes nourishing homemade satvik breakfast and traditional Indian lunch, philosophy learning, and restorative sound bath or Yoga Nidra to leave you grounded and refreshed.</p>
-      <img class="content-photo" src="https://images.unsplash.com/photo-1470115636492-6d2b56f9146d?auto=format&fit=crop&w=1200&q=80" alt="Peaceful yoga retreat setting" />
+    <nav class="site-nav" aria-label="Main">
+      <div class="site-nav__inner">
+        <a class="site-nav__brand" href="index.html">Prana Yoga</a>
+        <span class="site-nav__sep" aria-hidden="true">·</span>
+        <a class="site-nav__link" href="index.html#top">Home</a>
+        <a class="site-nav__link" href="about.html">About</a>
+        <a class="site-nav__link" href="index.html#services">Services</a>
+        <a class="site-nav__link" href="gallery.html">Gallery</a>
+        <a class="site-nav__link" href="reviews.html">Reviews</a>
+        <a class="site-nav__link" href="contact.html">Contact</a>
+      </div>
+    </nav>
+
+    <main>
+      <section
+        class="scroll-section"
+        style="--section-bg: url('https://images.unsplash.com/photo-1470115636492-6d2b56f9146d?auto=format&fit=crop&w=1600&q=80')"
+      >
+        <div class="scroll-section__bg" aria-hidden="true"></div>
+        <div class="scroll-section__wash" aria-hidden="true"></div>
+        <div class="scroll-section__scrim" aria-hidden="true"></div>
+        <div class="scroll-section__inner">
+          <div class="content-panel">
+            <h1>Wellness yoga retreats for individuals</h1>
+            <p class="section-lead">
+              Step into a beautiful morning of calm, connection, and renewal with our immersive Summer Yoga Retreat experience. Running from 9:00am – 2:30pm, this thoughtfully designed retreat is created to nourish both body and mind.
+            </p>
+            <p>
+              Your journey begins with a soothing herbal tea, followed by an introductory asana series and a deeper Hatha Yoga practice. You’ll explore mindful alignment and adjustments, alongside calming pranayama (breathwork) to restore balance and inner peace.
+            </p>
+            <p>
+              Enjoy a lovingly prepared homemade satvik Indian breakfast and a wholesome traditional Indian lunch, philosophy and discussion, and end the day with a deeply restorative sound bath and Yoga Nidra — leaving you grounded, refreshed, and uplifted.
+            </p>
+            <img
+              class="content-photo"
+              src="https://images.unsplash.com/photo-1504805572947-34fad45aed93?auto=format&fit=crop&w=1200&q=80"
+              alt="Peaceful retreat setting"
+            />
+          </div>
+        </div>
+      </section>
     </main>
-    <footer class="footer-contact"><div class="footer-inner"><strong>Contact</strong><br />Email: <a href="mailto:info@prana-yoga.uk">info@prana-yoga.uk</a><br />Mobile: <a href="tel:+447492366161">07492 366161</a></div></footer>
-    <script src="script.js"></script>
+
+    <footer class="footer-contact">
+      <div class="footer-inner">
+        <strong>Contact</strong><br />
+        Email: <a href="mailto:info@prana-yoga.uk">info@prana-yoga.uk</a><br />
+        Mobile: <a href="tel:+447492366161">07492 366161</a>
+      </div>
+    </footer>
   </body>
 </html>

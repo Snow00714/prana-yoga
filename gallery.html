@@ -7,23 +7,50 @@
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <header class="site-header"><div class="header-inner"><button class="menu-button" aria-label="Open menu" onclick="openMenu()"><span></span><span></span><span></span></button></div></header>
-    <aside class="side-menu" id="sideMenu">
-      <button class="menu-close" aria-label="Close menu" onclick="closeMenu()">×</button><h3>Prana Yoga</h3>
-      <a href="index.html">Home</a><a href="about.html">About Me</a><a href="services-yoga-classes.html">Yoga Classes</a><a href="services-individual-retreats.html">Retreats for Individuals</a><a href="services-corporate-retreats.html">Corporate Retreats</a><a href="services-chair-yoga.html">Chair Yoga</a><a href="services-workshops.html">Yoga Nidra Workshops</a><a href="gallery.html">Gallery</a><a href="reviews.html">Reviews</a><a href="contact.html">Contact</a>
-    </aside>
-    <div class="overlay" id="overlay" onclick="closeMenu()"></div>
-    <main class="container content-page">
-      <h1>Gallery</h1>
-      <p>A glimpse into yoga classes, retreats, workshops, and community moments created with connection, balance, and positive energy.</p>
-      <section class="gallery-strip">
-        <img src="https://images.unsplash.com/photo-1510894347713-fc3ed6fdf539?auto=format&fit=crop&w=900&q=80" alt="Yoga practice" />
-        <img src="https://images.unsplash.com/photo-1504805572947-34fad45aed93?auto=format&fit=crop&w=900&q=80" alt="Yoga retreat group" />
-        <img src="https://images.unsplash.com/photo-1599447421416-3414500d18a5?auto=format&fit=crop&w=900&q=80" alt="Meditation moment" />
-        <img src="https://images.unsplash.com/photo-1518459031867-a89b944bffe4?auto=format&fit=crop&w=900&q=80" alt="Calm yoga studio" />
+    <nav class="site-nav" aria-label="Main">
+      <div class="site-nav__inner">
+        <a class="site-nav__brand" href="index.html">Prana Yoga</a>
+        <span class="site-nav__sep" aria-hidden="true">·</span>
+        <a class="site-nav__link" href="index.html#top">Home</a>
+        <a class="site-nav__link" href="about.html">About</a>
+        <a class="site-nav__link" href="index.html#services">Services</a>
+        <a class="site-nav__link" href="gallery.html">Gallery</a>
+        <a class="site-nav__link" href="reviews.html">Reviews</a>
+        <a class="site-nav__link" href="contact.html">Contact</a>
+      </div>
+    </nav>
+
+    <main>
+      <section
+        class="scroll-section"
+        style="--section-bg: url('https://images.unsplash.com/photo-1510894347713-fc3ed6fdf539?auto=format&fit=crop&w=1600&q=80')"
+      >
+        <div class="scroll-section__bg" aria-hidden="true"></div>
+        <div class="scroll-section__wash" aria-hidden="true"></div>
+        <div class="scroll-section__scrim" aria-hidden="true"></div>
+        <div class="scroll-section__inner scroll-section__inner--wide">
+          <div class="content-panel content-panel--center">
+            <h1>Gallery</h1>
+            <p class="section-lead">
+              A glimpse into our yoga journey, retreats, workshops, and community moments — connection, balance, and positive energy at the heart of every session.
+            </p>
+            <div class="gallery-strip">
+              <img src="https://images.unsplash.com/photo-1510894347713-fc3ed6fdf539?auto=format&fit=crop&w=900&q=80" alt="Yoga practice" />
+              <img src="https://images.unsplash.com/photo-1504805572947-34fad45aed93?auto=format&fit=crop&w=900&q=80" alt="Retreat group" />
+              <img src="https://images.unsplash.com/photo-1599447421416-3414500d18a5?auto=format&fit=crop&w=900&q=80" alt="Meditation moment" />
+              <img src="https://images.unsplash.com/photo-1518459031867-a89b944bffe4?auto=format&fit=crop&w=900&q=80" alt="Calm yoga studio" />
+            </div>
+          </div>
+        </div>
       </section>
     </main>
-    <footer class="footer-contact"><div class="footer-inner"><strong>Contact</strong><br />Email: <a href="mailto:info@prana-yoga.uk">info@prana-yoga.uk</a><br />Mobile: <a href="tel:+447492366161">07492 366161</a></div></footer>
-    <script src="script.js"></script>
+
+    <footer class="footer-contact">
+      <div class="footer-inner">
+        <strong>Contact</strong><br />
+        Email: <a href="mailto:info@prana-yoga.uk">info@prana-yoga.uk</a><br />
+        Mobile: <a href="tel:+447492366161">07492 366161</a>
+      </div>
+    </footer>
   </body>
 </html>
